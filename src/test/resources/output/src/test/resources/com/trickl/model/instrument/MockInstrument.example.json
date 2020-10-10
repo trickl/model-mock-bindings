@@ -1,0 +1,7 @@
+{
+  "exchangeId": "mock",
+  "code": "standard_random_walk",
+  "name": "Standard Random Walk",
+  "description": "Generate a random walk between 0 and 100, starting at 50, new price every second.",
+  "type": "MOCK"
+}
