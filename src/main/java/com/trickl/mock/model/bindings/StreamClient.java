@@ -6,8 +6,8 @@ import org.reactivestreams.Publisher;
 import reactor.core.publisher.Flux;
 
 public class StreamClient {
-  private MapRouter<OrderBook> mapRouter = MapRouter
-      .<OrderBook>builder()
+  private MapRouter<OrderBook, String> mapRouter = MapRouter
+      .<OrderBook, String>builder()
       .fluxCreator(this::generateQuotes)
       .build();
 
